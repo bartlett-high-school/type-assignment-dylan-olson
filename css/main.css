@@ -1,5 +1,110 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+/* FONT SQUIRREL FONTS */
 
+@font-face {
+    font-family: 'arapeyitalic';
+    src: url('../fonts/arapey-italic-webfont.woff2') format('woff2'),
+         url('../fonts/arapey-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arapeyregular';
+    src: url('../fonts/arapey-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arapey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/quicksand-bold-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold_italic';
+    src: url('../fonts/quicksand-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url('../fonts/quicksand-italic-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight_italic';
+    src: url('../fonts/quicksand-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksanddash';
+    src: url('../fonts/quicksand_dash-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand_dash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Start the CSS*/
 body {
@@ -22,135 +127,30 @@ body {
 }
 
 h1 {
-
+	font-family: 'arapeyregular', serif;
 }
 
 h2 {
-
+	font-family: 'arapeyitalic', serif;
 }
 
 h3 {
-
+	font-family: 'quicksandbold', sans-serif;
 }
 
 h4 {
-
+	font-family: 'quicksandbold_italic', sans-serif;
 }
 
 h5 {
-
+	font-family: 'quicksanditalic', sans-serif;
 }
 
 h6 {
-
+        font-family: 'quicksandregular', sans-serif;
 }
 
 p {
-
-}
-/* FONT SQUIRREL FONTS */
-
-@font-face {
-    font-family: 'arapeyitalic';
-    src: url('arapey-italic-webfont.woff2') format('woff2'),
-         url('arapey-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'quicksanddash', sans-serif;
 }
 
-
-
-
-@font-face {
-    font-family: 'arapeyregular';
-    src: url('arapey-regular-webfont.woff2') format('woff2'),
-         url('arapey-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksandbold';
-    src: url('quicksand-bold-webfont.woff2') format('woff2'),
-         url('quicksand-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksandbold_italic';
-    src: url('quicksand-bolditalic-webfont.woff2') format('woff2'),
-         url('quicksand-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksanditalic';
-    src: url('quicksand-italic-webfont.woff2') format('woff2'),
-         url('quicksand-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksandlight';
-    src: url('quicksand-light-webfont.woff2') format('woff2'),
-         url('quicksand-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksandlight_italic';
-    src: url('quicksand-lightitalic-webfont.woff2') format('woff2'),
-         url('quicksand-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksandregular';
-    src: url('quicksand-regular-webfont.woff2') format('woff2'),
-         url('quicksand-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'quicksanddash';
-    src: url('quicksand_dash-webfont.woff2') format('woff2'),
-         url('quicksand_dash-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
